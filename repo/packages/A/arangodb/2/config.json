@@ -118,10 +118,10 @@
           "default": "mem(*):1024;cpus(*):1;disk(*):1024"
         },
 
-        "agency": {
-          "description": "service locator for an ETCD cluster. If your ETCD cluster is called 'etcd', then the service locator will be '_etcd-server._client.etcd.mesos'",
-          "type": "string",
-          "default": ""
+        "nr-agents": {
+          "description": "Initial number of agents",
+          "type": "integer",
+          "default": 1
         },
 
         "nr-dbservers": {
@@ -195,6 +195,7 @@
         "minimal-resources-dbserver",
         "minimal-resources-secondary",
         "mode",
+        "nr-agents",
         "nr-coordinators",
         "nr-dbservers",
         "role",
