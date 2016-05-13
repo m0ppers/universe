@@ -1,0 +1,14 @@
+{
+  "assets": {
+    "container": {
+      "docker": {
+        "46b3386fd6ca74552a4b59c6c636bf7a9904e842a989292632899c8cca7faf08": "docker.io/m0ppers/arangodb-mesos-framework:3.0"
+      }
+    }
+  },
+  "images": {
+    "icon-small": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/icons/arangodb_small.png",
+    "icon-medium": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/icons/arangodb_medium.png",
+    "icon-large": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/icons/arangodb_large.png"
+  }
+}
