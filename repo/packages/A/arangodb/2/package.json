@@ -1,7 +1,7 @@
 {
   "packagingVersion": "2.0",
   "name": "arangodb",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "scm": "https://github.com/arangodb/arangodb-dcos.git",
   "maintainer": "info@arangodb.com",
   "description": "A distributed free and open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
