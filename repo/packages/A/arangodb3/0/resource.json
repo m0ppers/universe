@@ -1,0 +1,38 @@
+{
+  "assets": {
+    "container": {
+      "docker": {
+        "d845f54f82f1f": "docker.io/arangodb/arangodb-mesos-framework:3.0.0"
+      }
+    }
+  },
+  "images": {
+    "icon-small": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/icons/arangodb_small.png",
+    "icon-medium": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/icons/arangodb_medium.png",
+    "icon-large": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/icons/arangodb_large.png"
+  },
+  "cli": {
+    "binaries": {
+      "linux": {
+        "x86-64": {
+          "kind": "executable",
+          "url": "https://github.com/arangodb/arangodb3-dcos/releases/download/1.0.0/dcos-arangodb3-1.0.0-linux-x64",
+          "contentHash": [{
+            "algo": "sha256",
+            "value": "0e29ae039f04e929781cd09fb7345ef3e44a540b9e2c8dc5bb48bc14cc74c707"
+          }]
+        }
+      },
+      "darwin": {
+        "x86-64": {
+          "kind": "executable",
+          "url": "https://github.com/arangodb/arangodb3-dcos/releases/download/1.0.0/dcos-arangodb3-1.0.0-darwin-x64",
+          "contentHash": [{
+            "algo": "sha256",
+            "value": "c96fe4772702b70773470c2970c9f7f75e6b361a7d12cc942607474624e66f61"
+          }]
+        }
+      }
+    }
+  }
+}
