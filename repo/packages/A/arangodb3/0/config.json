@@ -25,19 +25,25 @@
         "framework-name": {
           "description": "Identifier for the cluster.",
           "type": "string",
-          "default": "arangodb"
+          "default": "arangodb3"
         },
 
         "zk": {
           "description": "ZooKeeper URL for storing state. Format: zk://host1:port1,host2:port2,.../path. Please note that the id is appended to the path.",
           "type": "string",
-          "default": "zk://master.mesos:2181/arangodb"
+          "default": "zk://master.mesos:2181/arangodb3"
         },
 
         "webui-host": {
           "description": "For debugging: use this host for WEBUI request.",
           "type": "string",
           "default": ""
+        },
+        
+        "proxy-port": {
+          "description": "Proxy port, use '0' to let Mesos select a port for you.",
+          "type": "integer",
+          "default": 0
         },
 
         "framework-port": {
@@ -73,7 +79,7 @@
         "principal": {
           "description": "Principal for persistent volumes",
           "type": "string",
-          "default": "arangodb"
+          "default": "arangodb3"
         },
 
         "mode": {
@@ -91,7 +97,7 @@
         "role": {
           "description": "Role for framework",
           "type": "string",
-          "default": "arangodb"
+          "default": "arangodb3"
         },
 
         "minimal-resources-agent": {
@@ -121,7 +127,7 @@
         "nr-agents": {
           "description": "Number of Agents",
           "type": "integer",
-          "default": 3
+          "default": 1
         },
 
         "nr-dbservers": {

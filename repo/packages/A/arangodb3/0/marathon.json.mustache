@@ -2,7 +2,7 @@
   "id": "{{arangodb.framework-name}}",
   "cpus": {{arangodb.framework-cpus}},
   "mem": {{arangodb.framework-mem}},
-  "ports": [ {{arangodb.framework-port}}, 0 ],
+  "ports": [ {{arangodb.proxy-port}}, {{arangodb.framework-port}}, 0 ],
   "instances": {{arangodb.framework-instances}},
 
   "args": [
