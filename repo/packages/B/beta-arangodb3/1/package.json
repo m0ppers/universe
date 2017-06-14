@@ -1,7 +1,7 @@
 {
   "packagingVersion": "3.0",
   "minDcosReleaseVersion": "1.8",
-  "name": "arangodb32",
+  "name": "beta-arangodb3",
   "version": "3.2.x",
   "scm": "https://github.com/arangodb/arangodb3-dcos.git",
   "maintainer": "info@arangodb.com",
@@ -16,6 +16,5 @@
       "name": "Apache License Version 2.0",
       "url": "https://raw.githubusercontent.com/arangodb/arangodb-dcos/master/LICENSE"
     }
-  ],
-  "selected": true
+  ]
 }
