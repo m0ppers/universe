@@ -2,7 +2,7 @@
   "assets": {
     "container": {
       "docker": {
-        "framework": "docker.io/arangodb/arangodb-mesos-framework:3.2"
+        "framework": "docker.io/arangodb/arangodb-mesos-framework:3.2-build1"
       }
     }
   },

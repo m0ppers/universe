@@ -25,13 +25,13 @@
         "framework-name": {
           "description": "Identifier for the cluster.",
           "type": "string",
-          "default": "arangodb3"
+          "default": "arangodb3-beta"
         },
 
         "zk": {
           "description": "ZooKeeper URL for storing state. Format: zk://host1:port1,host2:port2,.../path. Please note that the id is appended to the path.",
           "type": "string",
-          "default": "zk://master.mesos:2181/arangodb3"
+          "default": "zk://master.mesos:2181/arangodb3-beta"
         },
 
         "webui-host": {
@@ -79,7 +79,7 @@
         "principal": {
           "description": "Principal for persistent volumes",
           "type": "string",
-          "default": "arangodb3"
+          "default": "arangodb3-beta"
         },
 
         "mode": {
@@ -97,7 +97,7 @@
         "role": {
           "description": "Role for framework",
           "type": "string",
-          "default": "arangodb3"
+          "default": "arangodb3-beta"
         },
 
         "minimal-resources-agent": {
@@ -206,7 +206,7 @@
           "default": "auto"
         },
         "arangodb-encryption-keyfile": {
-          "description": "Enable encryption. Provide a base64 encoded 32 byte long key.",
+          "description": "Enable data encryption (implies rocksdb storage engine). Provide a base64 encoded 32 byte long key. ENTERPRISE ONLY",
           "type": "string",
           "default": ""
         },
